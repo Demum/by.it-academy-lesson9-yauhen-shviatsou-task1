@@ -23,7 +23,6 @@ public class HttpExample {
         }
         httpClient.close();
     }
-
     @Test
     public void testPutMethod() throws IOException {
         CloseableHttpClient httpClient = HttpClients.createDefault();
